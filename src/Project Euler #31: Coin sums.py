@@ -1,9 +1,9 @@
-ans = 0
 S = [1,2,5,10,20,50,100,200]
 m = 8
 mod = 1000000007
-
 n = 100000
+
+#dp
 table = [[0 for x in range(m)] for x in range(n+1)] 
 for i in range(m): 
     table[0][i] = 1
